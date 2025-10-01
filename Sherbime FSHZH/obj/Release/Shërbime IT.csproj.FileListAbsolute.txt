@@ -1,0 +1,14 @@
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\Sherbime FSHZH\bin\Release\Sherbime IT.exe.config
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\Sherbime FSHZH\bin\Release\Sherbime IT.exe.manifest
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\Sherbime FSHZH\bin\Release\Sherbime IT.application
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\Sherbime FSHZH\bin\Release\Sherbime IT.exe
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\Sherbime FSHZH\bin\Release\Sherbime IT.pdb
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\Sherbime FSHZH\obj\Release\Shërbime IT.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\Sherbime FSHZH\obj\Release\Sherbime_FSHZH.Nderfaqe1.resources
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\Sherbime FSHZH\obj\Release\Sherbime_IT.Properties.Resources.resources
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\Sherbime FSHZH\obj\Release\Shërbime IT.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\Sherbime FSHZH\obj\Release\Shërbime IT.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\Sherbime FSHZH\obj\Release\Sherbime IT.exe.manifest
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\Sherbime FSHZH\obj\Release\Sherbime IT.application
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\Sherbime FSHZH\obj\Release\Sherbime IT.exe
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\Sherbime FSHZH\obj\Release\Sherbime IT.pdb

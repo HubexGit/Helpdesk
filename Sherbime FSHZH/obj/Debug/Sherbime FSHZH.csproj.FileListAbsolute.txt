@@ -1,0 +1,14 @@
+C:\Users\atushaj\Desktop\Hubex\Programim\Sherbime FSHZH\bin\Debug\Sherbime FSHZH.exe.config
+C:\Users\atushaj\Desktop\Hubex\Programim\Sherbime FSHZH\bin\Debug\Sherbime FSHZH.exe
+C:\Users\atushaj\Desktop\Hubex\Programim\Sherbime FSHZH\bin\Debug\Sherbime FSHZH.pdb
+C:\Users\atushaj\Desktop\Hubex\Programim\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.csproj.AssemblyReference.cache
+C:\Users\atushaj\Desktop\Hubex\Programim\Sherbime FSHZH\obj\Debug\Sherbime_FSHZH.Nderfaqe1.resources
+C:\Users\atushaj\Desktop\Hubex\Programim\Sherbime FSHZH\obj\Debug\Sherbime_FSHZH.Properties.Resources.resources
+C:\Users\atushaj\Desktop\Hubex\Programim\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.csproj.GenerateResource.cache
+C:\Users\atushaj\Desktop\Hubex\Programim\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.csproj.CoreCompileInputs.cache
+C:\Users\atushaj\Desktop\Hubex\Programim\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.exe
+C:\Users\atushaj\Desktop\Hubex\Programim\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.pdb
+C:\Users\atushaj\Desktop\Hubex\Programim\Sherbime FSHZH\bin\Debug\Sherbime FSHZH.exe.manifest
+C:\Users\atushaj\Desktop\Hubex\Programim\Sherbime FSHZH\bin\Debug\Sherbime FSHZH.application
+C:\Users\atushaj\Desktop\Hubex\Programim\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.exe.manifest
+C:\Users\atushaj\Desktop\Hubex\Programim\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.application
