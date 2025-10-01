@@ -60,7 +60,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.AliceBlue;
+            this.button1.BackColor = System.Drawing.Color.CornflowerBlue;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Coral;
             this.button1.FlatAppearance.BorderSize = 3;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkOrange;
