@@ -14,7 +14,7 @@
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>true</IsWebBootstrapper>
     <TargetFrameworkProfile />
-    <PublishUrl>C:\Users\admin\Desktop\NewHelpdeskApp\published\</PublishUrl>
+    <PublishUrl>C:\Users\admin\Desktop\FinalHelpdesk\published\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -24,12 +24,12 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://raw.githubusercontent.com/FlavioBame/Helpdesk/refs/heads/main/published/</InstallUrl>
-    <UpdateUrl>https://raw.githubusercontent.com/FlavioBame/Helpdesk/refs/heads/main/published/</UpdateUrl>
+    <InstallUrl>https://raw.githubusercontent.com/HubexGit/Helpdesk/refs/heads/main/published/</InstallUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/HubexGit/Helpdesk/refs/heads/main/published/</UpdateUrl>
     <PublisherName>Hubex</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>27</ApplicationRevision>
+    <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
