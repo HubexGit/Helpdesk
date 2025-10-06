@@ -83,7 +83,7 @@
             this.godina.BackColor = System.Drawing.Color.PeachPuff;
             this.godina.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
             this.godina.FlatAppearance.BorderSize = 3;
-            this.godina.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSalmon;
+            this.godina.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkOrange;
             this.godina.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.godina.ForeColor = System.Drawing.Color.OrangeRed;
             this.godina.Image = global::Sherbime_FSHZH.Properties.Resources.godine2;
