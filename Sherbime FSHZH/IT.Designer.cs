@@ -72,7 +72,7 @@ namespace Sherbime_FSHZH
             // 
             // leftPanel
             // 
-            this.leftPanel.BackColor = System.Drawing.Color.AliceBlue;
+            this.leftPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.leftPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.leftPanel.Controls.Add(this.button8);
             this.leftPanel.Controls.Add(this.button7);
@@ -240,7 +240,7 @@ namespace Sherbime_FSHZH
             // 
             // rightPanel
             // 
-            this.rightPanel.BackColor = System.Drawing.Color.PeachPuff;
+            this.rightPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.rightPanel.Controls.Add(this.button9);
             this.rightPanel.Controls.Add(this.label5);
             this.rightPanel.Controls.Add(this.HbxtextBox);

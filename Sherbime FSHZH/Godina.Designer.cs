@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            
+         
             this.HbxtextBox = new System.Windows.Forms.TextBox();
             this.Kthehu = new System.Windows.Forms.Button();
             this.Dergo = new System.Windows.Forms.Button();
@@ -37,7 +37,7 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -158,12 +158,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.PeachPuff;
+            this.label2.BackColor = System.Drawing.Color.Azure;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label2.ForeColor = System.Drawing.Color.SaddleBrown;
             this.label2.Location = new System.Drawing.Point(52, 21);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(889, 29);
+            this.label2.Size = new System.Drawing.Size(906, 29);
             this.label2.TabIndex = 7;
             this.label2.Text = "Kjo është hapësira juaj e shërbimeve të pastrimit && mirëmbajtjes së godinës.";
             // 
