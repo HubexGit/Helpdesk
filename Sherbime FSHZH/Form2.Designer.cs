@@ -41,9 +41,9 @@
             this.label1.ForeColor = System.Drawing.Color.RoyalBlue;
             this.label1.Location = new System.Drawing.Point(108, 186);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(646, 29);
+            this.label1.Size = new System.Drawing.Size(639, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Pershendetje, kjo eshte hapesira juaj e sherbimieve";
+            this.label1.Text = "Përshëndetje, kjo është hapësira juaj e shërbimeve";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
@@ -56,7 +56,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(459, 29);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Zgjidhni nje kategori per te vazhduar";
+            this.label3.Text = "Zgjidhni një kategori për të vazhduar";
             // 
             // button1
             // 
@@ -83,7 +83,7 @@
             this.godina.BackColor = System.Drawing.Color.PeachPuff;
             this.godina.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
             this.godina.FlatAppearance.BorderSize = 3;
-            this.godina.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
+            this.godina.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSalmon;
             this.godina.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.godina.ForeColor = System.Drawing.Color.OrangeRed;
             this.godina.Image = global::Sherbime_FSHZH.Properties.Resources.godine2;

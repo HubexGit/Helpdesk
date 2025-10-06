@@ -70,3 +70,23 @@ C:\Users\admin\Desktop\FinalHelpdesk\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.exe
 C:\Users\admin\Desktop\FinalHelpdesk\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.application
 C:\Users\admin\Desktop\FinalHelpdesk\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.exe
 C:\Users\admin\Desktop\FinalHelpdesk\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.pdb
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\bin\Debug\Sherbime FSHZH.exe.config
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\bin\Debug\Sherbime FSHZH.exe.manifest
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\bin\Debug\Sherbime FSHZH.application
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\bin\Debug\Sherbime FSHZH.exe
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\bin\Debug\Sherbime FSHZH.pdb
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Shërbime IT.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Sherbime_FSHZH.Nderfaqe1.resources
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Sherbime_IT.Form2.resources
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Sherbime_IT.Godina.resources
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Sherbime_FSHZH.IT.resources
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Sherbime_IT.MDIParent1.resources
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Sherbime_FSHZH.Properties.Resources.resources
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Shërbime IT.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Shërbime IT.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.TrustInfo.xml
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.exe.manifest
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.application
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.exe
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.pdb
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.exe.config

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-       
+            
             this.HbxtextBox = new System.Windows.Forms.TextBox();
             this.Kthehu = new System.Windows.Forms.Button();
             this.Dergo = new System.Windows.Forms.Button();
@@ -108,7 +108,7 @@
             this.panel1.Controls.Add(this.HbxtextBox);
             this.panel1.Controls.Add(this.Kthehu);
             this.panel1.Controls.Add(this.Dergo);
-            this.panel1.Location = new System.Drawing.Point(336, 101);
+            this.panel1.Location = new System.Drawing.Point(337, 64);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(679, 432);
             this.panel1.TabIndex = 5;
@@ -120,7 +120,7 @@
             this.flowLayoutPanel1.Controls.Add(this.label1);
             this.flowLayoutPanel1.Controls.Add(this.button2);
             this.flowLayoutPanel1.Controls.Add(button1);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(32, 56);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(32, 64);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(281, 507);
             this.flowLayoutPanel1.TabIndex = 6;
@@ -134,26 +134,26 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(219, 29);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Zgjidhni kategorine";
+            this.label1.Text = "Zgjidhni kategorinë";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
-            button1.BackColor = System.Drawing.Color.CornflowerBlue;
-            button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            button1.Image = global::Sherbime_FSHZH.Properties.Resources.maintain_icon__2_;
-            button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            button1.Location = new System.Drawing.Point(10, 135);
-            button1.Margin = new System.Windows.Forms.Padding(10, 16, 3, 3);
-            button1.Name = "button1";
-            button1.Size = new System.Drawing.Size(263, 61);
-            button1.TabIndex = 0;
-            button1.Text = "Mirembajtje godine";
-            button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Image = global::Sherbime_FSHZH.Properties.Resources.maintain_icon__2_;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(10, 135);
+            this.button1.Margin = new System.Windows.Forms.Padding(10, 16, 3, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(263, 61);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Mirëmbajtje godine";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -161,11 +161,11 @@
             this.label2.BackColor = System.Drawing.Color.PeachPuff;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label2.Location = new System.Drawing.Point(375, 44);
+            this.label2.Location = new System.Drawing.Point(52, 21);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(551, 29);
+            this.label2.Size = new System.Drawing.Size(889, 29);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Kjo eshte hapesira juaj e sherbimit te Godines";
+            this.label2.Text = "Kjo është hapësira juaj e shërbimeve të pastrimit && mirëmbajtjes së godinës.";
             // 
             // Godina
             // 
