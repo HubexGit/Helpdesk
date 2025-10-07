@@ -29,14 +29,15 @@
         private void InitializeComponent()
         {
             this.HbxtextBox = new System.Windows.Forms.TextBox();
-            this.Kthehu = new System.Windows.Forms.Button();
-            this.Dergo = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.Kthehu = new System.Windows.Forms.Button();
+            this.Dergo = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -50,6 +51,90 @@
             this.HbxtextBox.TabIndex = 2;
             this.HbxtextBox.Visible = false;
             this.HbxtextBox.TextChanged += new System.EventHandler(this.HbxtextBox_TextChanged);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.PeachPuff;
+            this.panel1.Controls.Add(this.HbxtextBox);
+            this.panel1.Controls.Add(this.Kthehu);
+            this.panel1.Controls.Add(this.Dergo);
+            this.panel1.Location = new System.Drawing.Point(337, 64);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(679, 432);
+            this.panel1.TabIndex = 5;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.PeachPuff;
+            this.flowLayoutPanel1.Controls.Add(this.label1);
+            this.flowLayoutPanel1.Controls.Add(this.button1);
+            this.flowLayoutPanel1.Controls.Add(this.button2);
+            this.flowLayoutPanel1.Controls.Add(this.button3);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(32, 64);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(281, 507);
+            this.flowLayoutPanel1.TabIndex = 6;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(20, 10);
+            this.label1.Margin = new System.Windows.Forms.Padding(20, 10, 3, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(219, 29);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Zgjidhni kategorinë";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Azure;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label2.Location = new System.Drawing.Point(52, 21);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(906, 29);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Kjo është hapësira juaj e shërbimeve të pastrimit && mirëmbajtjes së godinës.";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Coral;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Image = global::Sherbime_FSHZH.Properties.Resources.clean_icon;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(10, 135);
+            this.button2.Margin = new System.Windows.Forms.Padding(10, 16, 3, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(263, 61);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Utilitete dhe pastrim";
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Coral;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.Image = global::Sherbime_FSHZH.Properties.Resources.camera;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(10, 215);
+            this.button3.Margin = new System.Windows.Forms.Padding(10, 16, 3, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(263, 61);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Monitorim dhe ruajtje";
+            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+
             // 
             // Kthehu
             // 
@@ -78,64 +163,11 @@
             this.Dergo.Name = "Dergo";
             this.Dergo.Size = new System.Drawing.Size(203, 42);
             this.Dergo.TabIndex = 3;
-            this.Dergo.Text = "Dergo";
+            this.Dergo.Text = "Dërgo";
             this.Dergo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Dergo.UseVisualStyleBackColor = false;
             this.Dergo.Visible = false;
             this.Dergo.Click += new System.EventHandler(this.Dergo_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Coral;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Image = global::Sherbime_FSHZH.Properties.Resources.clean_icon;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(10, 55);
-            this.button2.Margin = new System.Windows.Forms.Padding(10, 16, 3, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(263, 61);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Pastrim";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.PeachPuff;
-            this.panel1.Controls.Add(this.HbxtextBox);
-            this.panel1.Controls.Add(this.Kthehu);
-            this.panel1.Controls.Add(this.Dergo);
-            this.panel1.Location = new System.Drawing.Point(337, 64);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(679, 432);
-            this.panel1.TabIndex = 5;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.PeachPuff;
-            this.flowLayoutPanel1.Controls.Add(this.label1);
-            this.flowLayoutPanel1.Controls.Add(this.button2);
-            this.flowLayoutPanel1.Controls.Add(button1);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(32, 64);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(281, 507);
-            this.flowLayoutPanel1.TabIndex = 6;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(20, 10);
-            this.label1.Margin = new System.Windows.Forms.Padding(20, 10, 3, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(219, 29);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Zgjidhni kategorinë";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
@@ -144,27 +176,16 @@
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Image = global::Sherbime_FSHZH.Properties.Resources.maintain_icon__2_;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(10, 135);
+            this.button1.Location = new System.Drawing.Point(10, 55);
             this.button1.Margin = new System.Windows.Forms.Padding(10, 16, 3, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(263, 61);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Mirëmbajtje godine";
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Mirëmbajtje";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Azure;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label2.Location = new System.Drawing.Point(52, 21);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(906, 29);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Kjo është hapësira juaj e shërbimeve të pastrimit && mirëmbajtjes së godinës.";
+
             // 
             // Godina
             // 
@@ -186,7 +207,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox HbxtextBox;
         private System.Windows.Forms.Button Dergo;
@@ -195,5 +215,7 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -29,7 +29,7 @@ namespace Sherbime_IT
         {
             InitializeComponent();
             
-            allButtons = new[] { button1, button2};
+            allButtons = new[] { button1, button2,button3};
             InitializeButtons(allButtons);
         }
 
@@ -56,11 +56,11 @@ namespace Sherbime_IT
             // Ruaj ngjyrën e klikimit ose rikthe ngjyrën fillestare
             if (buttonClickedState.ContainsKey(btn) && buttonClickedState[btn])
             {
-                btn.BackColor = Color.Coral; // Ruaj ngjyrën e klikimit
+                btn.BackColor = Color.CornflowerBlue; // Ruaj ngjyrën e klikimit
             }
             else
             {
-                btn.BackColor = Color.CornflowerBlue; // Rikthe ngjyrën fillestare
+                btn.BackColor = Color.Coral; // Rikthe ngjyrën fillestare
             }
         }
         private void button_Click(object sender, EventArgs e)
@@ -73,7 +73,7 @@ namespace Sherbime_IT
             {
                 if (btn == clickedButton) continue; // Mos ndrysho butonin e klikuar
 
-                btn.BackColor = Color.CornflowerBlue; // Rikthe ngjyrën fillestare
+                btn.BackColor = Color.Coral; // Rikthe ngjyrën fillestare
                 buttonClickedState[btn] = false;  // Rikthe gjendjen fillestare
                
             }
@@ -106,13 +106,10 @@ namespace Sherbime_IT
                 Outlook.MailItem mail = (Outlook.MailItem)outlookApp.CreateItem(Outlook.OlItemType.olMailItem);
                 mail.To = selectedEmail;
                 mail.Subject = selectedSubject;
-                
-                mail.HTMLBody= "<b><i>Përshëndetje!<br>Ju dërguat tekstin në platformën Helpdesk:</i></b><br><br>" +
-                    selectedBody+
-                    "<br><b><i>Ky email i dërgohet suportit të AMI-t dhe ju do të njoftoheni së shpejti për kërkesën tuaj.</i></b>";
+                mail.Body = selectedBody;
                 mail.CC = "administrata@albaniandf.org";
                 mail.Send();
-                MessageBox.Show("Problemi juaj u regjistrua, do të njoftoheni sa më shpejt për zgjidhjen");
+                MessageBox.Show("Përshëndetje! Ky email i dërgohet suportit të AMI-t dhe ju do të njoftoheni së shpejti për kërkesën tuaj.");
                 HbxtextBox.Text = "";
                 Dergo.Visible = false;
             }
@@ -157,6 +154,15 @@ namespace Sherbime_IT
         { //button5.BackColor = Color.LightCoral;
             selectedEmail = "helpdesk@ami.com.al";
             selectedSubject = button2.Text;
+            //label5.Visible = true;
+            HbxtextBox.Visible = true;
+            Dergo.Visible = true;
+
+        }
+        private void button3_Click(object sender, EventArgs e)
+        { //button5.BackColor = Color.LightCoral;
+            selectedEmail = "helpdesk@ami.com.al";
+            selectedSubject = button3.Text;
             //label5.Visible = true;
             HbxtextBox.Visible = true;
             Dergo.Visible = true;
