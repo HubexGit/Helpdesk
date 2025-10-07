@@ -301,7 +301,7 @@ namespace Sherbime_FSHZH
             this.Dergo.Name = "Dergo";
             this.Dergo.Size = new System.Drawing.Size(136, 38);
             this.Dergo.TabIndex = 2;
-            this.Dergo.Text = "Dergo";
+            this.Dergo.Text = "Dërgo";
             this.Dergo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Dergo.UseVisualStyleBackColor = false;
             this.Dergo.Visible = false;
