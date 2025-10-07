@@ -106,7 +106,10 @@ namespace Sherbime_IT
                 Outlook.MailItem mail = (Outlook.MailItem)outlookApp.CreateItem(Outlook.OlItemType.olMailItem);
                 mail.To = selectedEmail;
                 mail.Subject = selectedSubject;
-                mail.Body = "Ky email i shkon suportit të AMI \n" + selectedBody;
+                
+                mail.HTMLBody= "<b><i>Përshëndetje!<br>Ju dërguat tekstin në platformën Helpdesk:</i></b><br><br>" +
+                    selectedBody+
+                    "<br><b><i>Ky email i dërgohet suportit të AMI-t dhe ju do të njoftoheni së shpejti për kërkesën tuaj.</i></b>";
                 mail.CC = "administrata@albaniandf.org";
                 mail.Send();
                 MessageBox.Show("Problemi juaj u regjistrua, do të njoftoheni sa më shpejt për zgjidhjen");

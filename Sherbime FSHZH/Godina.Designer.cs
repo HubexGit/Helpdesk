@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-         
             this.HbxtextBox = new System.Windows.Forms.TextBox();
             this.Kthehu = new System.Windows.Forms.Button();
             this.Dergo = new System.Windows.Forms.Button();
@@ -87,7 +86,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.button2.BackColor = System.Drawing.Color.Coral;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Image = global::Sherbime_FSHZH.Properties.Resources.clean_icon;
@@ -104,7 +103,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.BackColor = System.Drawing.Color.PeachPuff;
             this.panel1.Controls.Add(this.HbxtextBox);
             this.panel1.Controls.Add(this.Kthehu);
             this.panel1.Controls.Add(this.Dergo);
@@ -116,7 +115,7 @@
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.PeachPuff;
             this.flowLayoutPanel1.Controls.Add(this.label1);
             this.flowLayoutPanel1.Controls.Add(this.button2);
             this.flowLayoutPanel1.Controls.Add(button1);
@@ -140,7 +139,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.button1.BackColor = System.Drawing.Color.Coral;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Image = global::Sherbime_FSHZH.Properties.Resources.maintain_icon__2_;
