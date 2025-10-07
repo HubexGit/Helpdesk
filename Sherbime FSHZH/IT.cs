@@ -212,10 +212,10 @@ namespace Sherbime_FSHZH
                 Outlook.MailItem mail = (Outlook.MailItem)outlookApp.CreateItem(Outlook.OlItemType.olMailItem);
                 mail.To = selectedEmail;
                 mail.CC = "evasili@albaniandf.org";
-                mail.Subject = selectedSubject;
+                mail.Subject = "Ky email i shkon suportit të Hubex \n" + selectedSubject;
                 mail.Body = selectedBody;
                 mail.Send();
-                MessageBox.Show("Problemi juaj u regjistrua, do te njoftoheni sa me shpejt per zgjidhjen");
+                MessageBox.Show("Problemi juaj u regjistrua, do të njoftoheni sa më shpejt për zgjidhjen");
                 HbxtextBox.Text = "";
                 Dergo.Visible = false;
             }
