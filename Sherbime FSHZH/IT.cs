@@ -105,7 +105,7 @@ namespace Sherbime_FSHZH
 
         private void button1_Click(object sender, EventArgs e)
         { //button5.BackColor = Color.LightCoral;
-            selectedEmail = "support@hubex.a;";
+            selectedEmail = "support@hubex.al";
             selectedSubject = button1.Text;
             label5.Visible = true;
             HbxtextBox.Visible = true;
@@ -115,7 +115,7 @@ namespace Sherbime_FSHZH
 
         private void button2_Click(object sender, EventArgs e)
         { //button5.BackColor = Color.LightCoral;
-            selectedEmail = "support@hubex.a;";
+            selectedEmail = "support@hubex.al";
             selectedSubject = button2.Text;
             label5.Visible = true;
             HbxtextBox.Visible = true;
@@ -124,7 +124,7 @@ namespace Sherbime_FSHZH
         }
         private void button3_Click(object sender, EventArgs e)
         { //button5.BackColor = Color.LightCoral;
-            selectedEmail = "support@hubex.a;";
+            selectedEmail = "support@hubex.al";
             selectedSubject = button3.Text;
             label5.Visible = true;
             HbxtextBox.Visible = true;
@@ -133,7 +133,7 @@ namespace Sherbime_FSHZH
         }
         private void button4_Click(object sender, EventArgs e)
         { //button5.BackColor = Color.LightCoral;
-            selectedEmail = "support@hubex.a;";
+            selectedEmail = "support@hubex.al";
             selectedSubject = button4.Text;
             label5.Visible = true;
             HbxtextBox.Visible = true;
@@ -141,7 +141,7 @@ namespace Sherbime_FSHZH
         }
         private void button5_Click(object sender, EventArgs e)
         { //button5.BackColor = Color.LightCoral;
-            selectedEmail = "support@hubex.a;";
+            selectedEmail = "support@hubex.al";
             selectedSubject = button5.Text;
             label5.Visible = true;
             HbxtextBox.Visible = true;
@@ -151,7 +151,7 @@ namespace Sherbime_FSHZH
 
         private void button6_Click(object sender, EventArgs e)
         {   //button6.BackColor = Color.LightCoral;
-            selectedEmail = "support@hubex.a;";
+            selectedEmail = "support@hubex.al";
             selectedSubject = button6.Text;
             label5.Visible = true;
             HbxtextBox.Visible = true;
@@ -159,7 +159,7 @@ namespace Sherbime_FSHZH
         }
         private void button7_Click(object sender, EventArgs e)
         {   //button6.BackColor = Color.LightCoral;
-            selectedEmail = "support@hubex.a;";
+            selectedEmail = "support@hubex.al";
             selectedSubject = button7.Text;
             label5.Visible = true;
             HbxtextBox.Visible = true;
@@ -167,7 +167,7 @@ namespace Sherbime_FSHZH
         }
         private void button8_Click(object sender, EventArgs e)
         {   //button6.BackColor = Color.LightCoral;
-            selectedEmail = "support@hubex.a;";
+            selectedEmail = "support@hubex.al";
             selectedSubject = button8.Text;
             label5.Visible = true;
             HbxtextBox.Visible = true;
