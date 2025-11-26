@@ -51,5 +51,17 @@ namespace Sherbime_IT
             form2.Show();
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Administrata form3 = new Administrata();
+            form3.MdiParent = this.MdiParent;
+            form3.WindowState = FormWindowState.Maximized;
+            form3.Size = new Size(800, 1700);   // Set width and height
+            form3.StartPosition = FormStartPosition.Manual;
+            form3.Location = new Point(0, 0);
+            form3.Show();
+            this.Close();
+        }
     }
 }

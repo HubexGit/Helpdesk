@@ -35,24 +35,24 @@ namespace Sherbime_FSHZH
         {
             this.label1 = new System.Windows.Forms.Label();
             this.leftPanel = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.rightPanel = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.HbxtextBox = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.serviceList = new System.Windows.Forms.ListBox();
+            this.Develop = new System.Windows.Forms.Panel();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.rightPanel = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.HbxtextBox = new System.Windows.Forms.TextBox();
             this.Dergo = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.serviceList = new System.Windows.Forms.ListBox();
-            this.Develop = new System.Windows.Forms.Panel();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.leftPanel.SuspendLayout();
             this.rightPanel.SuspendLayout();
             this.Develop.SuspendLayout();
@@ -87,6 +87,90 @@ namespace Sherbime_FSHZH
             this.leftPanel.Name = "leftPanel";
             this.leftPanel.Size = new System.Drawing.Size(199, 564);
             this.leftPanel.TabIndex = 1;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(13, 23);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(178, 24);
+            this.label9.TabIndex = 3;
+            this.label9.Text = "*Zgjidhni kategorinë";
+            // 
+            // rightPanel
+            // 
+            this.rightPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.rightPanel.Controls.Add(this.button9);
+            this.rightPanel.Controls.Add(this.label5);
+            this.rightPanel.Controls.Add(this.HbxtextBox);
+            this.rightPanel.Controls.Add(this.Dergo);
+            this.rightPanel.Location = new System.Drawing.Point(230, 43);
+            this.rightPanel.Name = "rightPanel";
+            this.rightPanel.Size = new System.Drawing.Size(500, 564);
+            this.rightPanel.TabIndex = 2;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(121, 23);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(246, 24);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "* Përshkruani problemin tuaj";
+            this.label5.Visible = false;
+            // 
+            // HbxtextBox
+            // 
+            this.HbxtextBox.BackColor = System.Drawing.Color.Linen;
+            this.HbxtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HbxtextBox.Location = new System.Drawing.Point(50, 84);
+            this.HbxtextBox.Multiline = true;
+            this.HbxtextBox.Name = "HbxtextBox";
+            this.HbxtextBox.Size = new System.Drawing.Size(400, 400);
+            this.HbxtextBox.TabIndex = 1;
+            this.HbxtextBox.Visible = false;
+            this.HbxtextBox.TextChanged += new System.EventHandler(this.HbxtextBox_TextChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(56, 30);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(200, 16);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "* Zgjidhni Kategorinë e Shërbimit";
+            this.label4.Visible = false;
+            // 
+            // serviceList
+            // 
+            this.serviceList.ItemHeight = 16;
+            this.serviceList.Location = new System.Drawing.Point(0, 0);
+            this.serviceList.Name = "serviceList";
+            this.serviceList.Size = new System.Drawing.Size(120, 84);
+            this.serviceList.TabIndex = 0;
+            // 
+            // Develop
+            // 
+            this.Develop.Controls.Add(this.linkLabel1);
+            this.Develop.Location = new System.Drawing.Point(2, 613);
+            this.Develop.Name = "Develop";
+            this.Develop.Size = new System.Drawing.Size(188, 24);
+            this.Develop.TabIndex = 3;
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.LinkColor = System.Drawing.Color.OrangeRed;
+            this.linkLabel1.Location = new System.Drawing.Point(12, 6);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(142, 16);
+            this.linkLabel1.TabIndex = 0;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Developed by HUBEX";
+            this.linkLabel1.VisitedLinkColor = System.Drawing.Color.OrangeRed;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel_LinkClicked);
             // 
             // button8
             // 
@@ -190,16 +274,6 @@ namespace Sherbime_FSHZH
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(13, 23);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(178, 24);
-            this.label9.TabIndex = 3;
-            this.label9.Text = "*Zgjidhni kategorinë";
-            // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.CornflowerBlue;
@@ -238,18 +312,6 @@ namespace Sherbime_FSHZH
             this.button6.MouseEnter += new System.EventHandler(this.button_MouseEnter);
             this.button6.MouseLeave += new System.EventHandler(this.button_MouseLeave);
             // 
-            // rightPanel
-            // 
-            this.rightPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.rightPanel.Controls.Add(this.button9);
-            this.rightPanel.Controls.Add(this.label5);
-            this.rightPanel.Controls.Add(this.HbxtextBox);
-            this.rightPanel.Controls.Add(this.Dergo);
-            this.rightPanel.Location = new System.Drawing.Point(230, 43);
-            this.rightPanel.Name = "rightPanel";
-            this.rightPanel.Size = new System.Drawing.Size(500, 564);
-            this.rightPanel.TabIndex = 2;
-            // 
             // button9
             // 
             this.button9.BackColor = System.Drawing.Color.Red;
@@ -265,29 +327,6 @@ namespace Sherbime_FSHZH
             this.button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(121, 23);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(246, 24);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "* Përshkruani problemin tuaj";
-            this.label5.Visible = false;
-            // 
-            // HbxtextBox
-            // 
-            this.HbxtextBox.BackColor = System.Drawing.Color.Linen;
-            this.HbxtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HbxtextBox.Location = new System.Drawing.Point(50, 84);
-            this.HbxtextBox.Multiline = true;
-            this.HbxtextBox.Name = "HbxtextBox";
-            this.HbxtextBox.Size = new System.Drawing.Size(400, 400);
-            this.HbxtextBox.TabIndex = 1;
-            this.HbxtextBox.Visible = false;
-            this.HbxtextBox.TextChanged += new System.EventHandler(this.HbxtextBox_TextChanged);
             // 
             // Dergo
             // 
@@ -306,45 +345,6 @@ namespace Sherbime_FSHZH
             this.Dergo.UseVisualStyleBackColor = false;
             this.Dergo.Visible = false;
             this.Dergo.Click += new System.EventHandler(this.Dergo_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(56, 30);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(200, 16);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "* Zgjidhni Kategorinë e Shërbimit";
-            this.label4.Visible = false;
-            // 
-            // serviceList
-            // 
-            this.serviceList.ItemHeight = 16;
-            this.serviceList.Location = new System.Drawing.Point(0, 0);
-            this.serviceList.Name = "serviceList";
-            this.serviceList.Size = new System.Drawing.Size(120, 84);
-            this.serviceList.TabIndex = 0;
-            // 
-            // Develop
-            // 
-            this.Develop.Controls.Add(this.linkLabel1);
-            this.Develop.Location = new System.Drawing.Point(2, 613);
-            this.Develop.Name = "Develop";
-            this.Develop.Size = new System.Drawing.Size(188, 24);
-            this.Develop.TabIndex = 3;
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.LinkColor = System.Drawing.Color.OrangeRed;
-            this.linkLabel1.Location = new System.Drawing.Point(12, 6);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(142, 16);
-            this.linkLabel1.TabIndex = 0;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Developed by HUBEX";
-            this.linkLabel1.VisitedLinkColor = System.Drawing.Color.OrangeRed;
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel_LinkClicked);
             // 
             // IT
             // 

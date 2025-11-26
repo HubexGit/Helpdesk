@@ -90,3 +90,4 @@ C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.applicat
 C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.exe
 C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.pdb
 C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Sherbime FSHZH.exe.config
+C:\Users\admin\Desktop\Helpdesk\Sherbime FSHZH\obj\Debug\Sherbime_FSHZH.Administrata.resources

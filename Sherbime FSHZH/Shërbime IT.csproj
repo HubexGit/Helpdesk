@@ -29,7 +29,7 @@
     <PublisherName>Hubex</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>12</ApplicationRevision>
+    <ApplicationRevision>13</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -102,6 +102,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administrata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrata.Designer.cs">
+      <DependentUpon>Administrata.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +140,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Administrata.resx">
+      <DependentUpon>Administrata.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -192,6 +201,11 @@
     <Content Include="HELPDESK_LOGO %281%29.ico" />
     <Content Include="HELPDESK_LOGO.ico" />
     <Content Include="Logo top.ICO" />
+    <None Include="Resources\transport.png" />
+    <None Include="Resources\katering1.png" />
+    <None Include="Resources\katering.png" />
+    <None Include="Resources\administrata1.png" />
+    <None Include="Resources\administrata.png" />
     <None Include="Resources\camera.png" />
     <None Include="Resources\bg-3.png" />
     <None Include="Resources\bg-2.png" />
