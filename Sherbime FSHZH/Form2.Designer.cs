@@ -115,7 +115,7 @@
             this.button2.Padding = new System.Windows.Forms.Padding(0, 30, 0, 0);
             this.button2.Size = new System.Drawing.Size(262, 278);
             this.button2.TabIndex = 5;
-            this.button2.Text = "ADMINISTRATA";
+            this.button2.Text = "ADMINISTRATA FSHZH";
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
